@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery.the_final_countdown.1.1.min.js
+
+
+// https://github.com/marcjeanson/Pomodoroz/commits/master?page=2
+$(document).ready(function() {
+
+$("#timer").createTimer({
+  time_in_seconds: 1500
+});
+
+
+});
