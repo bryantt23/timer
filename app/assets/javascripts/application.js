@@ -20,9 +20,11 @@
 // https://github.com/marcjeanson/Pomodoroz/commits/master?page=2
 $(document).ready(function() {
 
-$("#timer").createTimer({
-  time_in_seconds: 1500
-});
+  startButton.onclick = function() {
+    $("#timer").createTimer({
+      time_in_seconds: 1500
+    });
+  };
 
 
 });
